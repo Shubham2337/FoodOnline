@@ -38,40 +38,7 @@ Role-based authentication ensures that users, vendors, and admins have access on
 
 <h3>Usage Instructions</h3>
 <ol>
-    <li>
-        <b>Setup:</b><br>
-        Clone the repository:<br>
-        <code>git clone &lt;repository-url&gt;</code><br>
-        Navigate to the project folder:<br>
-        <code>cd &lt;project-folder&gt;</code><br>
-        Install dependencies:<br>
-        <code>pip install -r requirements.txt</code>
-    </li>
-    <br>
-    <li>
-        <b>Configuration:</b><br>
-        Update database settings in <code>settings.py</code> for your PostgreSQL instance.<br>
-        Run migrations to set up the database:<br>
-        <code>python manage.py makemigrations</code><br>
-        <code>python manage.py migrate</code>
-    </li>
-    <br>
-    <li>
-        <b>Run the Application:</b><br>
-        Start the Django development server:<br>
-        <code>python manage.py runserver</code><br>
-        Access the application at <code>http://127.0.0.1:8000/</code>.
-    </li>
-    <br>
-    <li>
-        <b>User Roles:</b><br>
-        <ul>
-            <li><b>Users:</b> Register and log in to place food orders and view their order history.</li>
-            <li><b>Vendors:</b> Log in to the vendor dashboard to track and manage incoming orders.</li>
-            <li><b>Admin:</b> Access the admin panel to manage all aspects of the platform.</li>
-        </ul>
-    </li>
+    <li>Sign up and log in as a user to browse food options and place orders for a personalized experience.</li>
+    <li>Vendors can log in to their dashboard to view and manage incoming food orders from customers.</li>
+    <li>Admins can access the admin panel to oversee and manage users, vendors, and orders for complete platform control.</li>
 </ol>
-
-<br>
-
