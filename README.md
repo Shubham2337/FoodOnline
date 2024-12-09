@@ -75,9 +75,3 @@ Role-based authentication ensures that users, vendors, and admins have access on
 
 <br>
 
-<h3>Important Notes</h3>
-<ul>
-    <li>This project uses Django’s built-in authentication for role-based access control.</li>
-    <li>Orders and user data are stored securely in a PostgreSQL database.</li>
-    <li>The platform ensures a smooth and efficient experience for all users, vendors, and administrators.</li>
-</ul>
